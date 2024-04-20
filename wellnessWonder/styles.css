@@ -1,8 +1,10 @@
 body
 {
   height: 100vh;
+  box-sizing: border-box;
   display :flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .header
 {
@@ -47,4 +49,13 @@ a{
 {
   width:500px;
   height: auto;
+}
+.footer
+{
+  background: #676767;
+height:50px;
+display:flex;
+justify-content: center;
+align-items: center;
+margin: 0;
 }
