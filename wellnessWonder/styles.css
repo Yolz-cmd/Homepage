@@ -32,6 +32,7 @@ a{
    padding: 10px 10px;
    gap:600px;
    background: rgb(212, 211, 211);
+   height:500px;
 }
 .section-1-1
 {
@@ -47,7 +48,7 @@ a{
 }
 .main-image
 {
-  width:500px;
+  width:400px;
   height: auto;
 }
 .footer
@@ -58,4 +59,36 @@ display:flex;
 justify-content: center;
 align-items: center;
 margin: 0;
+}
+.container
+{
+  display:flex;
+  
+  background-color: #676767;
+  width: 600px;
+  height:100px;
+ padding:30px;
+  gap: 90px;
+  border-radius: 8px;
+
+
+}
+.section-4
+{
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  height:500px;
+}
+.sign-up-btn
+{
+  padding:10px;
+  width:100px;
+  border-radius:8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.bottom
+{
+  margin-top: 30px;
 }
