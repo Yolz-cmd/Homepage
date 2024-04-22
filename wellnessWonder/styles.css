@@ -7,7 +7,7 @@ body
   justify-content: space-between;
   margin: 0;
   font-family:sans-serif;
-  
+
 }
 .header
 {
@@ -77,7 +77,7 @@ align-items: center;
   width: 600px;
   height:100px;
  padding:30px;
-  gap: 90px;
+  justify-content: space-around;
   border-radius: 8px;
 
 
